@@ -1,0 +1,1279 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 2-2
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"10:58:35"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+22774 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : M00 Low SD width: -39999.0 (module average -20000.0)
+#
+%Comment
+COMMENT        : M00 High SD width: -1.0 (module average -20000.0)
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 2-3
+TEST_DATE      : 05/12/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"10:58:53"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+33 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+#1 defects found
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : M00 Low Rise: -2.0 - using fall and mean width
+#
+%Comment
+COMMENT        : M00 has 55 Empty Bins
+#
+%Comment
+COMMENT        : M00 Low Rise: -2.0 - using falling edge
+#
+%Comment
+COMMENT        : M00 High SD width: 61.3 (module average -1.0)
+#
+%Comment
+COMMENT        : M00 Low SD width: -1.0 (module average -1.0)
+#
+%Comment
+COMMENT        : M00 High SD width: -1.0 (module average -1.0)
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 3-1
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"10:59:53"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+18 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+18 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : test
+LOCATION NAME  : Window.7574
+Run number     : 5-2
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"11:38:04"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+18 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+18 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : test
+LOCATION NAME  : Window.7574
+Run number     : 5-3
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"11:39:12"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+18 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+18 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : test
+LOCATION NAME  : Window.7574
+Run number     : 5-4
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"11:41:01"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M00
+	4 	34.92 	84.15 	0.00
+#M00
+	4 	34.81 	83.90 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M00
+	118.7 	 2.00 	84.3 	1.71 	 84.3 	 1.71 	4.56 	  340 	  65
+#M00
+	118.4 	 1.91 	83.9 	1.67 	 83.9 	 1.67 	4.51 	  333 	  46
+#
+#Loop C - Comment
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"unbonded" 	
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"unbonded" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M00:	127	  1	  0	  0	  0	127	  1	  0	  1	  0	  0	  1
+#Chip M00:	128	  0	  0	  0	  0	128	  1	  0	  1	  0	  0	  0
+#Link 0:	127	  1	  0	  0	  0	127	  1	  0	  1	  0	  0	  1
+#Link 1:	128	  0	  0	  0	  0	128	  1	  0	  1	  0	  0	  0
+#Link 2:	255	  1	  0	  0	  0	255	  2	  0	  2	  0	  0	  1
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 123
+LAST CHANNEL   : 123
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 128
+#
+#3 defects found affecting 3 strips
+#1 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : Channel 0 masked: low gain (0.0DAC/fC, cut 63.2DAC/fC)
+#
+%Comment
+COMMENT        : Channel 128 masked: low gain (0.0DAC/fC, cut 63.0DAC/fC)
+#
+#
+%TEST Rawdata
+FILENAME       : /opt/itsdaq/var/results/abc_star_RC_5_4.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : ttFill.7638
+Run number     : 15-1
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"15:38:34"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+21 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+21 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : ttFill.7638
+Run number     : 15-2
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"15:41:07"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M00
+	4 	40.32 	77.27 	0.00
+#M00
+	4 	43.24 	77.58 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M00
+	116.8 	15.48 	77.4 	1.66 	 76.8 	 7.01 	4.85 	  393 	  48
+#M00
+	120.3 	16.80 	77.6 	1.59 	 77.0 	 7.01 	4.84 	  387 	  37
+#
+#Loop C - Comment
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"unbonded" 	
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"unbonded" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M00:	126	  2	  0	  0	  0	126	  1	  0	  0	  0	  0	  2
+#Chip M00:	128	  0	  0	  0	  0	128	  1	  0	  0	  0	  0	  0
+#Link 0:	126	  2	  0	  0	  0	126	  1	  0	  0	  0	  0	  2
+#Link 1:	128	  0	  0	  0	  0	128	  1	  0	  0	  0	  0	  0
+#Link 2:	254	  2	  0	  0	  0	254	  2	  0	  0	  0	  0	  2
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 5
+LAST CHANNEL   : 5
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 123
+LAST CHANNEL   : 123
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 128
+#
+#4 defects found affecting 4 strips
+#1 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : Channel 0 masked: low gain (0.0DAC/fC, cut 58.1DAC/fC)
+#
+%Comment
+COMMENT        : Channel 128 masked: low gain (0.0DAC/fC, cut 58.2DAC/fC)
+#
+#
+%TEST Rawdata
+FILENAME       : /opt/itsdaq/var/results/abc_star_RC_15_2.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : ttPad.7640
+Run number     : 16-1
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"16:06:00"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+21 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+21 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : ttPad.7640
+Run number     : 16-2
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"16:08:31"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M00
+	4 	37.67 	78.14 	0.00
+#M00
+	4 	39.19 	78.14 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M00
+	115.2 	15.11 	78.2 	1.60 	 77.6 	 7.07 	4.82 	  385 	  46
+#M00
+	116.9 	16.24 	78.2 	1.39 	 77.6 	 7.02 	4.74 	  376 	  36
+#
+#Loop C - Comment
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"unbonded" 	
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"unbonded" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M00:	127	  1	  0	  0	  0	127	  1	  0	  0	  0	  0	  1
+#Chip M00:	128	  0	  0	  0	  0	128	  1	  0	  0	  0	  0	  0
+#Link 0:	127	  1	  0	  0	  0	127	  1	  0	  0	  0	  0	  1
+#Link 1:	128	  0	  0	  0	  0	128	  1	  0	  0	  0	  0	  0
+#Link 2:	255	  1	  0	  0	  0	255	  2	  0	  0	  0	  0	  1
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 123
+LAST CHANNEL   : 123
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 128
+#
+#3 defects found affecting 3 strips
+#1 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : Channel 0 masked: low gain (0.0DAC/fC, cut 58.7DAC/fC)
+#
+%Comment
+COMMENT        : Channel 128 masked: low gain (0.0DAC/fC, cut 58.6DAC/fC)
+#
+#
+%TEST Rawdata
+FILENAME       : /opt/itsdaq/var/results/abc_star_RC_16_2.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : 
+Run number     : 17-1
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"16:23:03"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+24 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+24 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : 
+Run number     : 17-2
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"16:25:06"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M00
+	4 	36.46 	77.33 	0.00
+#M00
+	4 	39.32 	76.88 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M00
+	113.2 	14.85 	77.5 	1.60 	 76.8 	 7.00 	4.90 	  396 	  48
+#M00
+	115.3 	14.80 	76.9 	1.31 	 76.3 	 6.90 	4.81 	  388 	  37
+#
+#Loop C - Comment
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"unbonded" 	
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"unbonded" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M00:	126	  2	  0	  0	  0	126	  1	  0	  0	  0	  0	  2
+#Chip M00:	128	  0	  0	  0	  0	128	  1	  0	  0	  0	  0	  0
+#Link 0:	126	  2	  0	  0	  0	126	  1	  0	  0	  0	  0	  2
+#Link 1:	128	  0	  0	  0	  0	128	  1	  0	  0	  0	  0	  0
+#Link 2:	254	  2	  0	  0	  0	254	  2	  0	  0	  0	  0	  2
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 5
+LAST CHANNEL   : 5
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 123
+LAST CHANNEL   : 123
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 128
+#
+#4 defects found affecting 4 strips
+#1 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : Channel 0 masked: low gain (0.0DAC/fC, cut 58.1DAC/fC)
+#
+%Comment
+COMMENT        : Channel 128 masked: low gain (0.0DAC/fC, cut 57.7DAC/fC)
+#
+#
+%TEST Rawdata
+FILENAME       : /opt/itsdaq/var/results/abc_star_RC_17_2.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : ttPad.7660
+Run number     : 19-1
+TEST_DATE      : 05/12/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"16:36:37"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+24 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+24 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : ttPad.7660
+Run number     : 19-8
+TEST_DATE      : 05/12/2018
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"17:01:02"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M00
+	4 	17.18 	-25.21 	0.00
+#M00
+	4 	16.93 	-24.50 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M00
+	###    Too many defects in this chip!    ###
+#M00
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"low gain" 	
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M00:	127	127	  0	  0	127	127	  1	  0	  0	  0	  0	  1
+#Chip M00:	128	127	  0	  0	127	128	  1	  0	  0	  0	  0	  0
+#Link 0:	127	127	  0	  0	127	127	  1	  0	  0	  0	  0	  1
+#Link 1:	128	127	  0	  0	127	128	  1	  0	  0	  0	  0	  0
+#Link 2:	255	254	  0	  0	254	255	  2	  0	  0	  0	  0	  1
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1
+LAST CHANNEL   : 122
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 123
+LAST CHANNEL   : 123
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 124
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 128
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 129
+LAST CHANNEL   : 255
+#
+#6 defects found affecting 256 strips
+#128 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : FAIL due to chip M0 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip M8 low gain
+#
+%Comment
+COMMENT        : FAIL due to 256 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 128 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : Channel 0 masked: low gain (0.0DAC/fC, cut 58.2DAC/fC)
+#
+%Comment
+COMMENT        : Channel 128 masked: low gain (0.0DAC/fC, cut 57.8DAC/fC)
+#
+#
+%TEST Rawdata
+FILENAME       : /opt/itsdaq/var/results/abc_star_RC_19_8.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : abc_star
+TEST MADE BY   : cas
+LOCATION NAME  : ttPad.7660
+Run number     : 19-11
+TEST_DATE      : 05/12/2018
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+" ABCSTAR"
+#TIME
+"21:28:31"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M00
+	4 	0.05 	0.04 	0.00
+#M00
+	4 	11.79 	-13.04 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M00
+	###    Too many defects in this chip!    ###
+#M00
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"unbonded" 	
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M00:	  1	127	  0	  0	127	  1	  0	  0	  0	  0	  0	127
+#Chip M00:	 16	127	  0	  0	127	 16	113	  0	  0	  0	  0	112
+#Link 0:	  1	127	  0	  0	127	  1	  0	  0	  0	  0	  0	127
+#Link 1:	 16	127	  0	  0	127	 16	113	  0	  0	  0	  0	112
+#Link 2:	 17	254	  0	  0	254	 17	113	  0	  0	  0	  0	239
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 135
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 136
+LAST CHANNEL   : 136
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 137
+LAST CHANNEL   : 143
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 144
+LAST CHANNEL   : 144
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 145
+LAST CHANNEL   : 151
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 152
+LAST CHANNEL   : 152
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 153
+LAST CHANNEL   : 159
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 160
+LAST CHANNEL   : 160
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 161
+LAST CHANNEL   : 167
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 168
+LAST CHANNEL   : 168
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 169
+LAST CHANNEL   : 175
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 176
+LAST CHANNEL   : 176
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 177
+LAST CHANNEL   : 183
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 184
+LAST CHANNEL   : 184
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 185
+LAST CHANNEL   : 191
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 192
+LAST CHANNEL   : 192
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 193
+LAST CHANNEL   : 199
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 200
+LAST CHANNEL   : 200
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 201
+LAST CHANNEL   : 207
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 208
+LAST CHANNEL   : 208
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 209
+LAST CHANNEL   : 215
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 216
+LAST CHANNEL   : 216
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 217
+LAST CHANNEL   : 223
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 224
+LAST CHANNEL   : 224
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 225
+LAST CHANNEL   : 231
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 232
+LAST CHANNEL   : 232
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 233
+LAST CHANNEL   : 239
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 240
+LAST CHANNEL   : 240
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 241
+LAST CHANNEL   : 247
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 248
+LAST CHANNEL   : 248
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 249
+LAST CHANNEL   : 255
+#
+#32 defects found affecting 255 strips
+#128 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : FAIL due to chip M8 low gain
+#
+%Comment
+COMMENT        : FAIL due to 255 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 128 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : Channel 128 masked: low gain (0.0DAC/fC, cut 58.7DAC/fC)
+#
+#
+%TEST Rawdata
+FILENAME       : /opt/itsdaq/var/results/abc_star_RC_19_11.txt
+#
